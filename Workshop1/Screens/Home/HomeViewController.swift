@@ -8,7 +8,8 @@
 import UIKit
 
 public final class HomeViewController: UIViewController {
-
+    
+    @IBOutlet private var categoryStackView: UIStackView!
     
     // MARK: - Life Cycle
     public override func loadView() {
@@ -20,6 +21,19 @@ public final class HomeViewController: UIViewController {
     public override func viewDidLoad() {
         super.viewDidLoad()
         print(#function)
+        
+        let categoryPresentations = [CategoryPresentation(emoji: "🍔", name: "Fast Food"),
+                                     CategoryPresentation(emoji: "🍺", name: "Drinks"),
+                                     CategoryPresentation(emoji: "🍦", name: "Ice Cream"),
+                                     CategoryPresentation(emoji: "🍜", name: "Soup"),
+                                     CategoryPresentation(emoji: "🎂", name: "Cake") ]
+        
+        for categoryPresentation in categoryPresentations {
+            let categoryComponent = CategoryComponent.make()
+            categoryComponent.configure(with: categoryPresentation)
+            categoryStackView.addArrangedSubview(categoryComponent)
+            
+        }
         
     }
 

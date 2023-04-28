@@ -43,6 +43,10 @@
                 <constraint firstItem="I0L-Qx-5ub" firstAttribute="centerY" secondItem="zsB-D2-9SY" secondAttribute="centerY" id="4G8-8W-itC"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emojiLabel" destination="Ch1-z9-p9u" id="Wbs-4A-lmZ"/>
+                <outlet property="nameLabel" destination="oIi-XF-ju3" id="YOp-Jb-yfO"/>
+            </connections>
             <point key="canvasLocation" x="151" y="-531"/>
         </view>
     </objects>

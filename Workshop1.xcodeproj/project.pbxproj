@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12B5914329FC5C2A005B0570 /* CategoryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */; };
 		4E8EBF1329E8750F00CFB0EC /* RecipeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1229E8750F00CFB0EC /* RecipeCollectionViewController.swift */; };
 		4E8EBF1529E876CB00CFB0EC /* RecipeCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */; };
 		4E8EBF1729E8813400CFB0EC /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1629E8813400CFB0EC /* RecipeCollectionViewCell.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresentation.swift; sourceTree = "<group>"; };
 		4E8EBF1229E8750F00CFB0EC /* RecipeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewController.swift; sourceTree = "<group>"; };
 		4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecipeCollection.storyboard; sourceTree = "<group>"; };
 		4E8EBF1629E8813400CFB0EC /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				4EB8AF8129FC313F00F9967B /* CategoryComponent.swift */,
 				4EB8AF8229FC313F00F9967B /* CategoryComponent.xib */,
+				12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B5914329FC5C2A005B0570 /* CategoryPresentation.swift in Sources */,
 				4EB8AF8829FC3FB600F9967B /* ConfigureProtocol.swift in Sources */,
 				4EB8AF7A29FC2E9E00F9967B /* UIImageView.swift in Sources */,
 				4EB8AF8329FC313F00F9967B /* CategoryComponent.swift in Sources */,

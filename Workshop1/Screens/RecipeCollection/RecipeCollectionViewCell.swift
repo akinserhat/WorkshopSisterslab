@@ -17,56 +17,6 @@ public extension String {
     }
 }
 
-public extension UIImageView {
-    enum Resource {
-        case url(URL)
-        case image(UIImage)
-        
-        public init?(_ source: Any?) {
-            guard let source else {
-                return nil
-            }
-            switch source {
-            case let string as String:
-                if let url = string.url {
-                    
-                } else if let image = string.image {
-                    
-                }
-                
-                switch (string.url, string.image) {
-                case (.some(let url), nil):
-                    
-                    
-                }
-                
-            case let image as UIImage:
-                self = .image(image)
-            case let url as URL:
-                self = .url(url)
-            default: return nil
-            }
-        }
-    }
-    
-    
-    func configure(with data: Any?) {
-        configure(with: Resource(data))
-    }
-    
-    func configure(with resource: Resource?) {
-        guard let resource else {
-            return
-        }
-        switch resource {
-        case let .image(image):
-            self.image = image
-        case let .url(url):
-            // TODO: - load url
-            break
-        }
-    }
-}
 
 public protocol RecipeCollectionViewCellDataSource {
     var imageName: String { get }
@@ -74,11 +24,7 @@ public protocol RecipeCollectionViewCellDataSource {
     var subtitle: String { get }
 }
 
-// TODO: - generic type configureprotocol has to implement custom views.
-public protocol ConfigureProtocol {
-    associatedtype DataSource
-    func configure(with data: DataSource)
-}
+
 
 public final class RecipeCollectionViewCell: UICollectionViewCell {
     

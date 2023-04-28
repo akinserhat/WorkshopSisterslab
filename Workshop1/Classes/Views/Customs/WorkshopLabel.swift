@@ -54,7 +54,6 @@ public class WorkshopLabel: UILabel {
         default:
             font = UIFont.systemFont(ofSize: 15, weight: .regular)
         }
-        
         if let font {
             self.font = font
         }

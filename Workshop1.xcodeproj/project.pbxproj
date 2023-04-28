@@ -11,6 +11,12 @@
 		4E8EBF1529E876CB00CFB0EC /* RecipeCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */; };
 		4E8EBF1729E8813400CFB0EC /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1629E8813400CFB0EC /* RecipeCollectionViewCell.swift */; };
 		4E8EBF1929E8833800CFB0EC /* RecipeCollectionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1829E8833800CFB0EC /* RecipeCollectionContentView.swift */; };
+		4EB8AF7A29FC2E9E00F9967B /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8AF7929FC2E9E00F9967B /* UIImageView.swift */; };
+		4EB8AF8329FC313F00F9967B /* CategoryComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8AF8129FC313F00F9967B /* CategoryComponent.swift */; };
+		4EB8AF8429FC313F00F9967B /* CategoryComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EB8AF8229FC313F00F9967B /* CategoryComponent.xib */; };
+		4EB8AF8629FC3F8000F9967B /* ComponentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8AF8529FC3F8000F9967B /* ComponentProtocol.swift */; };
+		4EB8AF8829FC3FB600F9967B /* ConfigureProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8AF8729FC3FB600F9967B /* ConfigureProtocol.swift */; };
+		4EB8AF8A29FC45F400F9967B /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB8AF8929FC45F400F9967B /* UIStackView.swift */; };
 		4EBF72C429DF391A00AC9D07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF72C329DF391A00AC9D07 /* AppDelegate.swift */; };
 		4EBF72C629DF391A00AC9D07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF72C529DF391A00AC9D07 /* SceneDelegate.swift */; };
 		4EBF72C829DF391A00AC9D07 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF72C729DF391A00AC9D07 /* HomeViewController.swift */; };
@@ -45,6 +51,12 @@
 		4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecipeCollection.storyboard; sourceTree = "<group>"; };
 		4E8EBF1629E8813400CFB0EC /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E8EBF1829E8833800CFB0EC /* RecipeCollectionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionContentView.swift; sourceTree = "<group>"; };
+		4EB8AF7929FC2E9E00F9967B /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		4EB8AF8129FC313F00F9967B /* CategoryComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryComponent.swift; sourceTree = "<group>"; };
+		4EB8AF8229FC313F00F9967B /* CategoryComponent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryComponent.xib; sourceTree = "<group>"; };
+		4EB8AF8529FC3F8000F9967B /* ComponentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentProtocol.swift; sourceTree = "<group>"; };
+		4EB8AF8729FC3FB600F9967B /* ConfigureProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureProtocol.swift; sourceTree = "<group>"; };
+		4EB8AF8929FC45F400F9967B /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
 		4EBF72C029DF391A00AC9D07 /* Workshop1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workshop1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBF72C329DF391A00AC9D07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EBF72C529DF391A00AC9D07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +116,72 @@
 				4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */,
 			);
 			path = RecipeCollection;
+			sourceTree = "<group>";
+		};
+		4EB8AF7629FC2E8200F9967B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8AF7829FC2E8E00F9967B /* Foundation */,
+				4EB8AF7729FC2E8800F9967B /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4EB8AF7729FC2E8800F9967B /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8AF7929FC2E9E00F9967B /* UIImageView.swift */,
+				4EB8AF8929FC45F400F9967B /* UIStackView.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		4EB8AF7829FC2E8E00F9967B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		4EB8AF7C29FC30D400F9967B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8AF8029FC30F600F9967B /* Category */,
+				4EB8AF8529FC3F8000F9967B /* ComponentProtocol.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4EB8AF7D29FC30DF00F9967B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8AF7F29FC30ED00F9967B /* Table */,
+				4EB8AF7E29FC30E500F9967B /* Collection */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4EB8AF7E29FC30E500F9967B /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		4EB8AF7F29FC30ED00F9967B /* Table */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		4EB8AF8029FC30F600F9967B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4EB8AF8129FC313F00F9967B /* CategoryComponent.swift */,
+				4EB8AF8229FC313F00F9967B /* CategoryComponent.xib */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		4EBF72B729DF391A00AC9D07 = {
@@ -175,6 +253,7 @@
 		4EBF72F529DF413000AC9D07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4EB8AF7629FC2E8200F9967B /* Extensions */,
 				4EBF72FC29DF575E00AC9D07 /* Views */,
 			);
 			path = Classes;
@@ -193,7 +272,10 @@
 		4EBF72FC29DF575E00AC9D07 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4EB8AF7D29FC30DF00F9967B /* Cells */,
+				4EB8AF7C29FC30D400F9967B /* Components */,
 				4EBF72FD29DF577800AC9D07 /* Customs */,
+				4EB8AF8729FC3FB600F9967B /* ConfigureProtocol.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -314,6 +396,7 @@
 				4EBF72CD29DF391E00AC9D07 /* Assets.xcassets in Resources */,
 				4E8EBF1529E876CB00CFB0EC /* RecipeCollection.storyboard in Resources */,
 				4EBF72CB29DF391A00AC9D07 /* Main.storyboard in Resources */,
+				4EB8AF8429FC313F00F9967B /* CategoryComponent.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +421,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB8AF8829FC3FB600F9967B /* ConfigureProtocol.swift in Sources */,
+				4EB8AF7A29FC2E9E00F9967B /* UIImageView.swift in Sources */,
+				4EB8AF8329FC313F00F9967B /* CategoryComponent.swift in Sources */,
 				4E8EBF1729E8813400CFB0EC /* RecipeCollectionViewCell.swift in Sources */,
+				4EB8AF8629FC3F8000F9967B /* ComponentProtocol.swift in Sources */,
 				4E8EBF1329E8750F00CFB0EC /* RecipeCollectionViewController.swift in Sources */,
 				4EBF72C829DF391A00AC9D07 /* HomeViewController.swift in Sources */,
+				4EB8AF8A29FC45F400F9967B /* UIStackView.swift in Sources */,
 				4EBF72C429DF391A00AC9D07 /* AppDelegate.swift in Sources */,
 				4E8EBF1929E8833800CFB0EC /* RecipeCollectionContentView.swift in Sources */,
 				4EBF72C629DF391A00AC9D07 /* SceneDelegate.swift in Sources */,

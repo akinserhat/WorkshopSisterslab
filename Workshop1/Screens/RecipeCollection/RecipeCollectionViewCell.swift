@@ -7,30 +7,25 @@
 
 import UIKit
 
-public extension String {
-    var url: URL? {
-        URL(string: self)
-    }
-    
-    var image: UIImage? {
-        UIImage(named: self)
-    }
-}
 
 
 public protocol RecipeCollectionViewCellDataSource {
-    var imageName: String { get }
+    var image: UIImageView.Resource? { get }
     var title: String { get }
     var subtitle: String { get }
 }
 
 
 
-public final class RecipeCollectionViewCell: UICollectionViewCell {
+public final class RecipeCollectionViewCell: UICollectionViewCell, ConfigureProtocol {
+    
+    public typealias DataSource = RecipeCollectionViewCellDataSource
     
     @IBOutlet private var imageView: UIImageView!
     @IBOutlet private var titleLabel: UILabel!
     @IBOutlet private var subtitleLabel: UILabel!
+    
+    
 
     
     public override func prepareForReuse() {
@@ -42,7 +37,9 @@ public final class RecipeCollectionViewCell: UICollectionViewCell {
     
     
     public func configure(with data: RecipeCollectionViewCellDataSource) {
-        
+        titleLabel.text = data.title
+        subtitleLabel.text = data.subtitle
+        imageView.setImage(with: data.image)
     }
     
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1225FDD82A042EF9006B234A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225FDD72A042EF9006B234A /* String.swift */; };
+		1225FDDC2A0435FD006B234A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225FDDB2A0435FD006B234A /* RecipeModel.swift */; };
 		12B5914329FC5C2A005B0570 /* CategoryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */; };
 		4E8EBF1329E8750F00CFB0EC /* RecipeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1229E8750F00CFB0EC /* RecipeCollectionViewController.swift */; };
 		4E8EBF1529E876CB00CFB0EC /* RecipeCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1225FDD72A042EF9006B234A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		1225FDDB2A0435FD006B234A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresentation.swift; sourceTree = "<group>"; };
 		4E8EBF1229E8750F00CFB0EC /* RecipeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewController.swift; sourceTree = "<group>"; };
 		4E8EBF1429E876CB00CFB0EC /* RecipeCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecipeCollection.storyboard; sourceTree = "<group>"; };
@@ -100,6 +104,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1225FDD62A042EDA006B234A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1225FDD72A042EF9006B234A /* String.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		1225FDD92A0435E4006B234A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1225FDDA2A0435EB006B234A /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1225FDDA2A0435EB006B234A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1225FDDB2A0435FD006B234A /* RecipeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4E8EBF1029E8737300CFB0EC /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +151,7 @@
 		4EB8AF7629FC2E8200F9967B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4EB8AF7829FC2E8E00F9967B /* Foundation */,
+				1225FDD62A042EDA006B234A /* Foundation */,
 				4EB8AF7729FC2E8800F9967B /* UIKit */,
 			);
 			path = Extensions;
@@ -136,13 +164,6 @@
 				4EB8AF8929FC45F400F9967B /* UIStackView.swift */,
 			);
 			path = UIKit;
-			sourceTree = "<group>";
-		};
-		4EB8AF7829FC2E8E00F9967B /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
 			sourceTree = "<group>";
 		};
 		4EB8AF7C29FC30D400F9967B /* Components */ = {
@@ -256,6 +277,7 @@
 		4EBF72F529DF413000AC9D07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1225FDD92A0435E4006B234A /* Network */,
 				4EB8AF7629FC2E8200F9967B /* Extensions */,
 				4EBF72FC29DF575E00AC9D07 /* Views */,
 			);
@@ -426,8 +448,10 @@
 			files = (
 				12B5914329FC5C2A005B0570 /* CategoryPresentation.swift in Sources */,
 				4EB8AF8829FC3FB600F9967B /* ConfigureProtocol.swift in Sources */,
+				1225FDDC2A0435FD006B234A /* RecipeModel.swift in Sources */,
 				4EB8AF7A29FC2E9E00F9967B /* UIImageView.swift in Sources */,
 				4EB8AF8329FC313F00F9967B /* CategoryComponent.swift in Sources */,
+				1225FDD82A042EF9006B234A /* String.swift in Sources */,
 				4E8EBF1729E8813400CFB0EC /* RecipeCollectionViewCell.swift in Sources */,
 				4EB8AF8629FC3F8000F9967B /* ComponentProtocol.swift in Sources */,
 				4E8EBF1329E8750F00CFB0EC /* RecipeCollectionViewController.swift in Sources */,

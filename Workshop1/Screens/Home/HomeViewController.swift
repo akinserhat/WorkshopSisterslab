@@ -26,6 +26,8 @@ public final class HomeViewController: UIViewController {
                                      CategoryPresentation(emoji: "🍺", name: "Drinks"),
                                      CategoryPresentation(emoji: "🍦", name: "Ice Cream"),
                                      CategoryPresentation(emoji: "🍜", name: "Soup"),
+                                     CategoryPresentation(emoji: "🎂", name: "Cake"),
+                                     CategoryPresentation(emoji: "🎂", name: "Cake"),
                                      CategoryPresentation(emoji: "🎂", name: "Cake") ]
         
         for categoryPresentation in categoryPresentations {
@@ -34,9 +36,8 @@ public final class HomeViewController: UIViewController {
             categoryStackView.addArrangedSubview(categoryComponent)
             
         }
-        
     }
-
+    
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         print(#function)
@@ -65,7 +66,12 @@ public final class HomeViewController: UIViewController {
     
     // MARK: - prepare
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+        switch segue.destination {
+        case let recipeCollectionViewController as RecipeCollectionViewController:
+            recipeCollectionViewController.build(for: 0)
+        default:
+            break
+        }
     }
     
 

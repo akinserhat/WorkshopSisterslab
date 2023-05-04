@@ -31,7 +31,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="oqB-Lu-pK9">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecipeCell" id="oqB-Lu-pK9" customClass="RecipeCollectionViewCell" customModule="Workshop1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0Zz-ga-t2G">
@@ -40,6 +40,7 @@
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dkN-YT-CZx">
                                                     <rect key="frame" x="0.0" y="0.0" width="200" height="230"/>
+                                                    <color key="backgroundColor" systemColor="systemMintColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="230" id="0Z3-QD-4I3"/>
                                                         <constraint firstAttribute="width" constant="200" id="elw-7T-0UT"/>
@@ -82,6 +83,11 @@
                                                 <constraint firstItem="dkN-YT-CZx" firstAttribute="leading" secondItem="0Zz-ga-t2G" secondAttribute="leading" id="x1n-iB-Xua"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageView" destination="dkN-YT-CZx" id="7Km-Ob-e0x"/>
+                                            <outlet property="subtitleLabel" destination="9ht-vr-GCq" id="jzh-WH-F0Q"/>
+                                            <outlet property="titleLabel" destination="SJD-MK-jgd" id="nZs-Pg-bg3"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="W5R-N7-bTU">
                                         <rect key="frame" x="212" y="0.0" width="200" height="300"/>
@@ -99,7 +105,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="more"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBp-mx-9oy" customClass="WorkshopLabel" customModule="Workshop1" customModuleProvider="target">
-                                <rect key="frame" x="16.000000000000004" y="8" width="43.333333333333343" height="34"/>
+                                <rect key="frame" x="0.0" y="8" width="43.333333333333336" height="34"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -116,7 +122,7 @@
                             <constraint firstItem="Exu-tq-CNV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="13Z-rn-KNn"/>
                             <constraint firstItem="Exu-tq-CNV" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="2eD-ZM-8Dd"/>
                             <constraint firstItem="Exu-tq-CNV" firstAttribute="top" secondItem="PBp-mx-9oy" secondAttribute="bottom" constant="8" id="4cp-YK-z5A"/>
-                            <constraint firstItem="PBp-mx-9oy" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="16" id="87O-i8-joa"/>
+                            <constraint firstItem="PBp-mx-9oy" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="87O-i8-joa"/>
                             <constraint firstItem="PBp-mx-9oy" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="8" id="LXC-Wn-GnE"/>
                             <constraint firstItem="3MW-eU-ObF" firstAttribute="centerY" secondItem="PBp-mx-9oy" secondAttribute="centerY" id="THt-ot-xJ1"/>
                             <constraint firstAttribute="bottom" secondItem="Exu-tq-CNV" secondAttribute="bottom" id="bqn-fA-d1D"/>
@@ -130,6 +136,9 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="393" height="350"/>
+                    <connections>
+                        <outlet property="contentView" destination="5EZ-qb-Rvc" id="TlX-kA-E8c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -139,6 +148,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

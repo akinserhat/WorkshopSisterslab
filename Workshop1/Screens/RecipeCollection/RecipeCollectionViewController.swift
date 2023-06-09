@@ -11,6 +11,7 @@ public final class RecipeCollectionViewController: UIViewController {
 
 
     @IBOutlet private weak var contentView: RecipeCollectionContentView!
+    private var provider: RecipeNetworkProviderProtocol = RecipeNetworkProvider()
 
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,7 @@ public final class RecipeCollectionViewController: UIViewController {
     
     public func build(for categoryId: Int) {
         // TODO: -> Network isteği atılacak. Sonra model gelecek...
+        provider.recipes()
         let recipeList = [RecipeModel(id: 1, name: "Humus", imageUrl: nil, likeCount: 99, createdAt: ""),
                           RecipeModel(id: 2, name: "Falafel", imageUrl: nil, likeCount: 89, createdAt: ""),
                           RecipeModel(id: 3, name: "Vegan Kebap", imageUrl: nil, likeCount: 179, createdAt: ""),

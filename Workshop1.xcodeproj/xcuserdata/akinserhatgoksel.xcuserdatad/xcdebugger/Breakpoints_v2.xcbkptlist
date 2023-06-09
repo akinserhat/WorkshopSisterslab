@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B8BAEABE-7B1C-4609-B44D-253BC6B21933"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "71F421B6-BCDD-4F03-B255-D69AE4D844AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66E56453-8456-482D-85D5-80DFAC6D3D2A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Workshop1/Screens/RecipeCollection/RecipeCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "build(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2CEA028-FA2F-4072-87C5-6B9C8AEFE4F6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "recipes()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2CEA028-FA2F-4072-87C5-6B9C8AEFE4F6 - e4225f0ad3dd7b2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Workshop1.RecipeNetworkProvider.recipes() -&gt; ()"
+                  moduleName = "Workshop1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akinserhatgoksel/Desktop/WorkshopSisterslab/Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "F2CEA028-FA2F-4072-87C5-6B9C8AEFE4F6 - e4225f0ad3dd7b2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Workshop1.RecipeNetworkProvider.recipes() -&gt; ()"
+                  moduleName = "Workshop1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akinserhatgoksel/Desktop/WorkshopSisterslab/Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D10AC3A-BF52-4B0E-8AF3-D1AF85D54A31"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Workshop1/Classes/Network/SpoonacularNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "request()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C28A317-3B6A-4C76-A937-0008E066D385"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "recipes()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7C28A317-3B6A-4C76-A937-0008E066D385 - 9f07999c78224c15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Workshop1.RecipeNetworkProvider.recipes() -&gt; ()"
+                  moduleName = "Workshop1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akinserhatgoksel/Desktop/WorkshopSisterslab/Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "7C28A317-3B6A-4C76-A937-0008E066D385 - 9f07999c78224c15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Workshop1.RecipeNetworkProvider.recipes() -&gt; ()"
+                  moduleName = "Workshop1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akinserhatgoksel/Desktop/WorkshopSisterslab/Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "616">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE46F6C4-2793-4A5E-AF99-4BFBEEB1B73F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "recipes()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE46F6C4-2793-4A5E-AF99-4BFBEEB1B73F - 9f07999c78224dcb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Workshop1.RecipeNetworkProvider.recipes() -&gt; ()"
+                  moduleName = "Workshop1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akinserhatgoksel/Desktop/WorkshopSisterslab/Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+               <Location
+                  uuid = "CE46F6C4-2793-4A5E-AF99-4BFBEEB1B73F - 9f07999c78224d89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Workshop1.RecipeNetworkProvider.recipes() -&gt; ()"
+                  moduleName = "Workshop1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akinserhatgoksel/Desktop/WorkshopSisterslab/Workshop1/Classes/Network/Providers/RecipeNetworkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

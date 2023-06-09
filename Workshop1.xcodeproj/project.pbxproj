@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121F40632A33A28900D5FA49 /* SpoonacularNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F40622A33A28900D5FA49 /* SpoonacularNetworkService.swift */; };
+		121F40652A33A3F100D5FA49 /* RecipeNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F40642A33A3F100D5FA49 /* RecipeNetworkProvider.swift */; };
+		121F40672A33AA1400D5FA49 /* RecipeResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121F40662A33AA1400D5FA49 /* RecipeResponseModel.swift */; };
 		1225FDD82A042EF9006B234A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225FDD72A042EF9006B234A /* String.swift */; };
 		1225FDDC2A0435FD006B234A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1225FDDB2A0435FD006B234A /* RecipeModel.swift */; };
 		12B5914329FC5C2A005B0570 /* CategoryPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */; };
@@ -50,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		121F40622A33A28900D5FA49 /* SpoonacularNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpoonacularNetworkService.swift; sourceTree = "<group>"; };
+		121F40642A33A3F100D5FA49 /* RecipeNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeNetworkProvider.swift; sourceTree = "<group>"; };
+		121F40662A33AA1400D5FA49 /* RecipeResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeResponseModel.swift; sourceTree = "<group>"; };
 		1225FDD72A042EF9006B234A /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		1225FDDB2A0435FD006B234A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		12B5914229FC5C2A005B0570 /* CategoryPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresentation.swift; sourceTree = "<group>"; };
@@ -104,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		121F40612A33A26500D5FA49 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				121F40642A33A3F100D5FA49 /* RecipeNetworkProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
 		1225FDD62A042EDA006B234A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +129,9 @@
 		1225FDD92A0435E4006B234A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				121F40612A33A26500D5FA49 /* Providers */,
 				1225FDDA2A0435EB006B234A /* Models */,
+				121F40622A33A28900D5FA49 /* SpoonacularNetworkService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -124,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				1225FDDB2A0435FD006B234A /* RecipeModel.swift */,
+				121F40662A33AA1400D5FA49 /* RecipeResponseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -446,6 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121F40672A33AA1400D5FA49 /* RecipeResponseModel.swift in Sources */,
+				121F40652A33A3F100D5FA49 /* RecipeNetworkProvider.swift in Sources */,
 				12B5914329FC5C2A005B0570 /* CategoryPresentation.swift in Sources */,
 				4EB8AF8829FC3FB600F9967B /* ConfigureProtocol.swift in Sources */,
 				1225FDDC2A0435FD006B234A /* RecipeModel.swift in Sources */,
@@ -458,6 +477,7 @@
 				4EBF72C829DF391A00AC9D07 /* HomeViewController.swift in Sources */,
 				4EB8AF8A29FC45F400F9967B /* UIStackView.swift in Sources */,
 				4EBF72C429DF391A00AC9D07 /* AppDelegate.swift in Sources */,
+				121F40632A33A28900D5FA49 /* SpoonacularNetworkService.swift in Sources */,
 				4E8EBF1929E8833800CFB0EC /* RecipeCollectionContentView.swift in Sources */,
 				4EBF72C629DF391A00AC9D07 /* SceneDelegate.swift in Sources */,
 				4EBF730029DF582000AC9D07 /* WorkshopLabel.swift in Sources */,
